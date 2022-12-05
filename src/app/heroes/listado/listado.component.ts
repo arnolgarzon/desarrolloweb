@@ -8,4 +8,7 @@ export class ListadoComponent  {
 
   heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor'];
 
+    borrarHeroe() {
+      this.heroes.shift();
+    }
 }
